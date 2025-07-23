@@ -1,0 +1,6 @@
+train: DFUYoloV5/images/train
+val: DFUYoloV5/images/val
+test: DFUYoloV5/images/test
+
+nc: 1
+names: ['dfu']
