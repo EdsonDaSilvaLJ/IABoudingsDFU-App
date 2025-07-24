@@ -6,9 +6,9 @@ import cv2
 from tqdm import tqdm
 
 # CONFIGURE AQUI OS CAMINHOS:
-IMAGES_DIR = '/DFU2020'               # Pasta com TODAS as imagens (.jpg)
-OUTPUT_DIR = './DFUYolov8'             # Pasta que vai conter as subpastas YOLO
-CSV_FILE = './seu_csv.csv'            # Caminho do seu CSV
+IMAGES_DIR = r"C:\Users\Edson\Downloads\DFUC2020_trainset_release\DFUC2020_trainset\train"              # Pasta com TODAS as imagens (.jpg)
+OUTPUT_DIR = './DFUYolov5'             # Pasta que vai conter as subpastas YOLO (para YOLOv8 ou YOLOv5)
+CSV_FILE = r"C:\Users\Edson\Downloads\DFUC2020_trainset_release\DFUC2020_trainset\groundtruth.csv"            # Caminho do seu CSV
 
 # 1. Lê o CSV
 df = pd.read_csv(CSV_FILE)
